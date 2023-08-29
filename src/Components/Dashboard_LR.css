@@ -1,0 +1,64 @@
+.dashboard-left{
+  width: 20vb;
+  height: 100vh;
+  background-color: rgb(185, 185, 185);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-block: 20px;
+  text-align: center;
+}
+
+.dashboard-right{
+  width: 188vb;
+  height: 100vh;
+  background-color: rgb(227, 227, 227);
+  text-align: center;
+  padding-block: 20px;
+}
+
+.menu-list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.dashboard-left > .HPCL-logo{
+  position: absolute;
+  top: 10px;
+  width: 40px;
+}
+
+.dashboard-left > button{
+  position: absolute;
+  bottom: 10px;
+}
+
+.logout-btn{
+  font-size: 14px;
+  box-shadow: inset -2px -2px 5px rgba(0, 0, 0, 0.3), inset 2px 2px 5px rgba(255, 255, 255, 0.4);
+}
+
+.dashboard-list{
+  font-size: 16px;
+  font-weight: 600;
+  padding-block: 10px;
+  padding-inline: 8px;
+}
+
+.dashboard-list:hover {
+  padding-block: 10px;
+  padding-inline: 15px;
+  cursor: pointer;
+  background-color: rgb(200, 200, 200);
+  box-shadow: 0px 5px 10px rgb(125, 125, 125);
+  border-radius: 10px;
+}
+
+.active {
+  border-radius: 10px;
+  background-color: rgb(185, 185, 185);
+  box-shadow: inset -3px -3px 5px rgba(0, 0, 0, 0.2), inset 3px 3px 5px rgba(255, 255, 255, 0.2);
+}
